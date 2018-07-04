@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@font-face {
+    
+      font-family: 'digital-7';
+    
+      src: url('digital_counter_7.ttf');
+    
+    }
+
+.topic{
+    font-family: 'digital-7';
+}    
+    
+.calcu{
+    background-color: coral;  
+    width: 220px;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 5px 2px rgb(107, 8, 69) ;                      
+    /*background-color: aqua;*/
+  }
+
+  .manuf{
+    background-color: coral;  
+    width: 220px;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    box-shadow: 4px 5px 2px rgb(107, 8, 69) ;                      
+  }
+
+  .topheader{
+    background-color: coral;  
+    width: 220px;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vh;
+    box-shadow: 4px 5px 2px rgb(107, 8, 69) ;  
+    text-align: center;
+    font-family: 'digital-7';
+  }
+
+  .submanu1{
+      text-align: center;
+      font-family: 'digital-7';
+  }
+
+  .submanu2{
+    text-align: center;
+    font-family: 'digital-7';
+    color: cornsilk; 
+  }
+
+  .numpad{
+      min-width: 200px;
+      padding-left: auto;
+      padding-right: auto;
+      margin: 10px;
+      padding: 2px;
+      background-color: aqua;
+      box-shadow: -3px -3px 2px blueviolet ;
+      font-family: 'digital-7';
+  }
+
+  .table{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+  .a{
+      background-color: red;
+      color: aliceblue;
+      box-shadow: 2px 2px rgb(107, 8, 69) ;            
+  }
+
+  .b{
+      background-color: gray;
+      color: aliceblue;
+      box-shadow: 2px 2px rgb(107, 8, 69) ;            
+  }
+
+  .equals{
+      background-color: green;
+      color: aliceblue;
+      box-shadow: 2px 2px rgb(107, 8, 69) ;            
+  }
+
+  .a:hover , .b:hover , .equals:hover{
+      /* position: relative;
+         right: 5px;
+         bottom: 5px;  */
+      color: black;   
+      transform: translate(-1px,-1px);
+      box-shadow: 3px 3px rgb(107, 8, 69) ;            
+      transition: 0.4s;
+  }
+
+  .a:active , .b:active , .equals:active{
+      /* position: relative;
+         left: 10px;
+         top: 10px; */
+      color: black;   
+      transform: translate(0px,0px);
+      box-shadow: 0px 0px 2px grey;
+      transition: 0.2s;
+  }
+
+  .screen{
+      min-width: 200px;
+      min-height: 60px;
+      height: auto;
+      background-color: aqua;
+      margin: 10px;
+      padding: 2px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+      box-shadow: -3px -3px 2px blueviolet ;
+  }
+
+  #subshow{
+      min-height: 20px;
+      height: auto;
+      text-align: right;
+      margin: 2px;
+      padding: 2px;
+      color: violet;
+      background-color: aliceblue;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+      font-family: 'digital-7';
+    }
+
+  #display{
+      min-height: 30px;
+      height: auto;
+      text-align: right;
+      margin: 2px;
+      padding: 2px;
+      font-size: 20px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+      font-family: 'digital-7';
+  }
+
+  @font-face {
+      font-family: 'Digital Counter 7';
+      src: url('http://www.fourntsaddict.com/fourntface/digital-counter-7.ttf');
+  }
